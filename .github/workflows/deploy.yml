@@ -17,4 +17,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: /
-          sync: "true"
+          enable_sync: "true"
